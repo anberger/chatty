@@ -1,0 +1,6 @@
+.idea
+node_modules
+dev-settings.json
+prod-settings.json
+mup.json
+aws-ubuntu.pem

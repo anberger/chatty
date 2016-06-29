@@ -1,0 +1,53 @@
+{
+  "name": "simple chat",
+  "private": true,
+  "main": "src/server.js",
+  "browser": "src/client.js",
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "chart.js": "^2.1.6",
+    "meteor-node-stubs": "~0.2.3",
+    "moment": "^2.13.0",
+    "react": "^15.1.0",
+    "react-addons-pure-render-mixin": "^15.1.0",
+    "react-bootstrap": "^0.29.5",
+    "react-d3": "^0.4.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.5.1",
+    "react-router-bootstrap": "^0.23.0",
+    "react-scroll": "^1.0.17",
+    "react-spinkit": "^1.1.7",
+    "velocity-react": "^1.1.5"
+  },
+  "version": "1.0.0",
+  "author": "Andreas Berger",
+  "license": "ISC",
+  "description": "This is an example of a simple chat build with meteor and react + webpack",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "json-loader": "^0.5.4",
+    "postcss-loader": "^0.9.1",
+    "react-transform-catch-errors": "^1.0.2",
+    "react-transform-hmr": "^1.0.4",
+    "redbox-react": "^1.2.9",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-hot-middleware": "^2.11.0"
+  }
+}

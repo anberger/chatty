@@ -1,0 +1,9 @@
+{
+  "public" : {
+
+  },
+  "facebook" : {
+    "appId" : "YOUR-FB-APP-ID",
+    "secret" : "YOUR-FB-SECRET"
+  }
+}

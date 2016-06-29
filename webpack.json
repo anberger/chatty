@@ -1,0 +1,10 @@
+{
+  "root": "src",
+  "devServer": {
+    "host": "localhost"
+  },
+  "hotMiddleware": {
+    "reload": true
+  },
+  "devtool": "source-map"
+}

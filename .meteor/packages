@@ -1,0 +1,40 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base             # Packages every Meteor app needs to have
+mongo                   # The database Meteor supports right now
+
+standard-minifier-css   # CSS minifier run for production mode
+standard-minifier-js    # JS minifier run for production mode
+
+# React
+react-meteor-data
+static-html
+
+# Webpack related
+webpack:webpack
+webpack:react
+webpack:html
+webpack:css
+webpack:assets
+webpack:postcss
+
+# Collection Helpers
+aldeed:simple-schema
+aldeed:collection2
+dburles:collection-helpers
+reywood:publish-composite
+mdg:validated-method
+
+# Account Dependencies
+accounts-password
+accounts-facebook
+accounts-google
+accounts-base
+
+# Misc
+pagebakers:ionicons
+service-configuration
