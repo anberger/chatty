@@ -5,6 +5,9 @@ import {Meteor} from 'meteor/meteor';
 import Messages from './../../imports/api/messages/messages.js';
 import {SimpleSchema} from 'meteor/aldeed:simple-schema';
 
-Meteor.publish('Messages.public', (id) => {
-  return Messages.find({roomId: id});
+Meteor.publish('Messages.public', function(id) {
+  if(this.userId && id) {
+    return Messages.find({roomId: id});
+  }
+  return null;
 });

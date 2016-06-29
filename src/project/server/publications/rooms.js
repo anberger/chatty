@@ -5,9 +5,9 @@ import {Meteor} from 'meteor/meteor';
 import Rooms from './../../imports/api/rooms/rooms.js';
 import {SimpleSchema} from 'meteor/aldeed:simple-schema';
 
-Meteor.publish('Rooms.public', (id) => {
-  if(id) {
-    return Rooms.find({_id: id});
+Meteor.publish('Rooms.public', function() {
+  if(this.userId) {
+    return Rooms.find({});
   }
-  return Rooms.find({});
+  return null;
 });

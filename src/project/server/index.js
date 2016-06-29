@@ -3,13 +3,6 @@ import './publications';
 import {ServiceConfiguration} from 'meteor/service-configuration';
 
 Meteor.startup(() => {
-  Meteor.methods({
-    'test2' : () => {
-      console.log("test2");
-    }
-  })
-  console.log("Server started");
-
   ServiceConfiguration.configurations.upsert({
     service: "facebook"
   }, {
