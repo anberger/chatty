@@ -1,7 +1,7 @@
 **Chatty**
 
 Chatty is a small example for building applications with Meteor 1.3, React and Webpack. 
-For installation use the following instruction: 
+Use the following instruction to install the application: 
 
 _Make sure that you have installed Meteor and Node first._
 
