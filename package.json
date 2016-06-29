@@ -1,5 +1,5 @@
 {
-  "name": "simple chat",
+  "name": "chatty",
   "private": true,
   "main": "src/server.js",
   "browser": "src/client.js",
