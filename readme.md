@@ -21,5 +21,5 @@ If you wanna use the facebook login, make sure that you enter your credentials f
 Facebook-Dev Page in your settings.json file. 
 
 **TODO**
-Implementing Error handling with Redux
-
+* [ ] Error handling
+* [ ] CSS modules 
