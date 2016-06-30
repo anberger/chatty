@@ -6,9 +6,9 @@ import Rooms from './../../api/rooms/rooms';
 export default createContainer(({roomId}) => {
 
   // Subscribe collections
-  const mHandle = Meteor.subscribe('Messages.public', roomId);
-  const uHandle = Meteor.subscribe('Users.public');
-  const rHandle = Meteor.subscribe('Rooms.public');
+  const mHandle = Meteor.subscribe('Messages.private', roomId);
+  const uHandle = Meteor.subscribe('Users.private');
+  const rHandle = Meteor.subscribe('Rooms.private');
 
   // Loading handlers
   const loading = !mHandle.ready() && !uHandle.ready() && !rHandle.ready();

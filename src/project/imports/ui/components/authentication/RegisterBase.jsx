@@ -5,6 +5,7 @@ import { Button } from 'react-bootstrap';
 import { checkEmailExists } from './../../../api/users/methods';
 import { Accounts } from 'meteor/accounts-base';
 
+// TODO: split up in smaller components
 class Register extends React.Component {
   constructor(props) {
     super(props);

@@ -5,7 +5,7 @@ import Rooms from './../../api/rooms/rooms';
 export default createContainer((params) => {
 
   // Subscribe collections
-  const handle = Meteor.subscribe('Rooms.public');
+  const handle = Meteor.subscribe('Rooms.private');
 
   // Collection loaded handler
   const loading = !handle.ready();

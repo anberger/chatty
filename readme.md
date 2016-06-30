@@ -20,3 +20,6 @@ _Make sure that you have installed Meteor and Node first._
 If you wanna use the facebook login, make sure that you enter your credentials from 
 Facebook-Dev Page in your settings.json file. 
 
+**TODO**
+Implementing Error handling with Redux
+
